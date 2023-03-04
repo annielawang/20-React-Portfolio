@@ -30,8 +30,6 @@ No installation is necessary.
 
 ## Screenshots
 
-This is the "Portfolio" gallery page:
-
 ## Usage
 
 ## Credits
