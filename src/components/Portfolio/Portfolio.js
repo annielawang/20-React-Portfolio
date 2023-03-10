@@ -17,11 +17,51 @@ import cli from "../../images/cli.png";
 import mvnBlog from "../../images/mvc-blog.png";
 import pokemondex from "../../images/pokemondex.png";
 import twytter from "../../images/twytter.png";
+import easyFda from "../../images/Easy-FDA.png";
 
 const Portfolio = () => {
   return (
     <MDBContainer fluid className="h-100 pb-4 bkgrd">
       <MDBRow>
+        <MDBCol className="col-md-4">
+          <MDBCard className="h-100">
+            <MDBCardImage
+              className="img-thumbnail"
+              position="top"
+              src={easyFda}
+            />
+            <MDBCardBody>
+              <MDBCardTitle>Easy-FDA</MDBCardTitle>
+              <MDBCardText>
+                Currently, anyone can Google a specific ingredient or product,
+                but the search results are general and vast. This can mislead
+                users to sites that are at the top of a search, but do not
+                provide reliable information aka misinformation. This app allows
+                users to query the official USDA API for information on a given
+                food and/or ingredient to a food. This app will be available to
+                the general public but can help several specific demographics
+                such as new/expecting parents looking to verify the safety of
+                ingredients in food they are giving their infant. This app will
+                benefit several groups that have the common goal of furthering
+                their knowledge of the food items they are ingesting or
+                purchasing. This is a full-stack MERN application using the
+                following technologies: React for the front end. GraphQL with a
+                Node.js and Express.js server. MongoDB and the Mongoose ODM for
+                the database. JWT for authentication. Heroku. Third-party
+                front-end libraries, including emailjs, sweetalert2,
+                animate.css.
+              </MDBCardText>
+            </MDBCardBody>
+            <MDBCardFooter className="text-center">
+              <MDBCardLink href="https://github.com/roldanmoncada/easy-usda">
+                Repository link
+              </MDBCardLink>
+              <MDBCardLink href="https://easy-usda.herokuapp.com/">
+                Deployed app
+              </MDBCardLink>
+            </MDBCardFooter>
+          </MDBCard>
+        </MDBCol>
         <MDBCol className="col-md-4">
           <MDBCard className="h-100">
             <MDBCardImage
@@ -78,6 +118,8 @@ const Portfolio = () => {
             </MDBCardFooter>
           </MDBCard>
         </MDBCol>
+      </MDBRow>
+      <MDBRow className="row-cols-1 row-cols-md-3 g-3 pt-2">
         <MDBCol className="col-md-4">
           <MDBCard className="h-100">
             <MDBCardImage
@@ -107,8 +149,6 @@ const Portfolio = () => {
             </MDBCardFooter>
           </MDBCard>
         </MDBCol>
-      </MDBRow>
-      <MDBRow className="row-cols-1 row-cols-md-3 g-3 pt-2">
         <MDBCol>
           <MDBCard className="h-100">
             <MDBCardImage className="img-thumbnail" position="top" src={cli} />
