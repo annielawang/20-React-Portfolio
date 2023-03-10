@@ -34,7 +34,7 @@ const Footer = () => {
             <MDBIcon fab icon="stack-overflow" size="2x" />
           </a>
         </span>
-        <span className="px-4">© 2022 Copyright</span>
+        <span className="px-4">© 2023 Copyright</span>
       </div>
     </MDBFooter>
   );
